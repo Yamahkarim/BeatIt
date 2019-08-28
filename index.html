@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html> 
+        
+<head>
+<title>Beat It!</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<div style="background-image:url(/Users/yamah/beatItWork/imgs/wallpaperBeatIt.svg);
+		background-repeat:repeat;
+		background-attachment:fixed;">
+  <div class="container-fluid">
+        <nav class="navbar sticky-top bg-success">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                    <span class="sr-only">Toggle navigation</span>
+                  </button>
+                    <a class="navbar-brand" href="#">Beat It: <small>An Analysis of Electronic Music Subgenre Classification</small></a>
+                  </div>
+            
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                      <!-- First -->
+                      <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Methodology <span class="caret"></span></a>  
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="/Users/yamah/beatItWork/LogisticRegression_beatIt.ipynb">Logistic Regression</a><br>
+                          <a class="dropdown-item" href="/Users/yamah/beatItWork/SVMbeatIt.ipynb">Support Vector Machines</a><br>
+                          <a class="dropdown-item" href="/Users/yamah/beatItWork/DecisionTree_beatIt.ipynb">Decision Tree & Random Forest</a><br>
+                          <a class="dropdown-item" href="/Users/yamah/beatItWork/DeepLearn_beatIt.ipynb">Deep Learning</a><br>
+                          <a class="dropdown-item" href="/Users/yamah/beatItWork/DataCleaning.ipynb">Data Cleaning</a><br>
+                        </div>
+                      </li>
+                       <!-- Second -->
+                      <li><a href="#" class="nav-link dropdown dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Resources <span class="caret"></span></a>  
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="logregression.html#">Exploration of Previous Work</a>
+                          <a class="dropdown-item" href="svm.html#">Other Resources</a>
+                     
+                          <li>
+                        <a href="https://public.tableau.com/profile/yamah.karim#!/vizhome/BeatIt/Dashboard1?publish=yes">Explore the Data</a>
+                      </li>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+              </nav>
+            </div>
+      <div class="container-fluid">
+        <div class="row">
+        
+            <div class="col-lg-8">
+              <h1 class="text-success">Overview</h1>
+              <hr>
+              <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="2" data-gs-height="2">
+                <div class="grid-stack-item-content panel panel-primary">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Purpose</h3>
+                  </div>
+                  <div class="panel-body">
+                    <h5> When it comes to electronic music subgenres, music recommendation applications seldom get it right</h5>
+                    <h4><i></i> Can the tools we have learned in help create a more accurately model for electronic music sub genres?
+                  </h4></i></div>
+                </div>
+              </div>
+              <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="2" data-gs-height="2">
+                <div class="grid-stack-item-content panel panel-primary">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Previous Work</h3>
+                  </div>
+                  <div class="panel-body">
+                    <h2><i>Audio Based Genre Classification of Electronic Music, Priit Kirss 2007</i></h2>
+                    <H3>Abstract</H3>
+                    <P><i>"This thesis aims at developing the audio based genre classification techniques combining some of the existing computational methods with models that are capable of detecting rhythm patterns. 
+                      The overviews of the features and machine learning algorithms used for current approach are presented. 
+                      The total 250 musical excerpts from five different electronic music genres such as deep house, techno, uplifting trance, drum and bass and ambient were used for evaluation. 
+                      The methodology consists of two main steps, first, the feature data is extracted from audio excerpts, and second, the feature data is used to train the machine learning algorithms for classification. 
+                      The experiments carried out using feature set composed of Rhythm Patterns, Statistical Spectrum Descriptors from RPextract and features from Marsyas gave the highest results.
+                      Training that feature set on Support Vector Machine algorithm the classification accuracy of 96.4% was reached."</P>
+                      <P><IMG SRC="/Users/yamah/beatItWork/imgs/KirssFindings.png" alt="Kirss Findings (2007)" width="500" height="450"> </P></i>
+                  </div>
+                </div>
+              </div>
+              <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="2" data-gs-height="2">
+                  <div class="grid-stack-item-content panel panel-primary">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">Data</h3>
+                    </div>
+                    <div class="panel-body">
+                        The dataset for my study is known as the Beats dataset and was retrieved from <a href="https://www.kaggle.com/caparrini/beatsdataset"> Kaggle</a>. 
+                        <p>
+                        <i>“The dataset contains 100 song for each genre among 23 electronic music genres, they were the top (100) songs of their genres on November 2016. 
+                          The 71 columns are audio features extracted of a two random minutes sample of the file audio. 
+                          These features have been extracted using <a href="https://github.com/tyiannak/pyAudioAnalysis">pyAudioAnalysis</a>”</i>
+                        
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="2" data-gs-height="2">
+                    <div class="grid-stack-item-content panel panel-primary">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">Methodology</h3>
+                      </div>
+                      <div class="panel-body">
+                         <p> 
+                          1.)Frame the problem<br>
+                          2.) Research <br>
+                          3.) Gather the data <br>
+                          4.) Perform algorithms<br>
+                           <p>Features Observed<br>
+                            <li>Spectral Centroid</li>
+                            <li>Zero Crossing Rate</li>
+                            <li>Spectral Flux</li>
+                            <li>Spectral Entropy</li>
+                            <li>Spectral Roll Off</li>
+                            <li>Spectral Flux</li>
+                            <li>Beat per Minute</li></p></li>
+                          5.) Tune the hyperparameters <br>
+                          6.) Gather Findings <br>
+                          7.) Present & Visualize</p>
+                          
+                      </div>
+                    </div>
+                  </div>
+                  <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="2" data-gs-height="2">
+                      <div class="grid-stack-item-content panel panel-primary">
+                        <div class="panel-heading">
+                          <h3 class="panel-title">Findings</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><table>
+                                <tr>
+                                  <th>ALGORITHM</th>
+                                  <th>BEST SCORE</th>
+                                </tr>
+                                <tr>
+                                  <td>Support Vector Machine (SVM)</td>
+                                  <td>0.64</td>
+                                </tr>
+                                <tr>
+                                  <td>Logistic Regression</td>
+                                  <td>0.58</td>
+                                </tr>
+                                <tr>
+                                  <td>Deep Learning With Keras</td>
+                                  <td><b>0.91</b></td>
+                                </tr>
+                                <tr>
+                                  <td>Decision Tree</td>
+                                  <td>0.34</td>
+                                </tr>
+                                <tr>
+                                  <td>Random Forest</td>
+                                  <td>0.40</td>
+                                </tr>
+                              </table></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="grid-stack-item" data-gs-x="0" data-gs-y="0" data-gs-width="2" data-gs-height="2">
+                      <div class="grid-stack-item-content panel panel-primary">
+                        <div class="panel-heading">
+                          <h3 class="panel-title">Conclusion</h3>
+                        </div>
+                        <div class="panel-body">
+                           <p> 
+                            The unsupervised neural network method using Keras yielded the most accurate model. However, no tother models were even close.
+                          <br>The reason my models performed at such a handicap compared to Kirss (2007)<br>
+                        <li>Feature Sets<br></li>
+                        <li> More robust models using Weka, which runs on Matlab.</li></p>
+                            
+                        </div>
+                      </div>
+                    </div>
+             
+              
+              </div>
+             
+              <div class="col-lg-4">
+                <!-- Spotify Web Player -->
+               
+                  <iframe src="https://open.spotify.com/embed/playlist/6o8xtgvj9eI2Ok9L7OyIhj" width="300" height="680" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+               <!-- Data Exploration Shortcuts -->
+               
+               <div class="container-fluid"> 
+                 <h1 class="text-success">Explore the Data</h1>
+                <hr> 
+                <li><a href="https://public.tableau.com/profile/yamah.karim#!/vizhome/BeatIt/Dashboard1?publish=yes">Data Exploration via Tableau</a>
+                </li>
+                <li><a href="https://www.kaggle.com/caparrini/beatsdataset">Data Repo (Kaggle)</a> 
+               
+                </li>
+              </div>
+              </div>
+        </div>
+        
+  
+
+      </div>
+
+     </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+
