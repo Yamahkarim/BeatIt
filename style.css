@@ -2,4 +2,11 @@
     color: #fff;
     background-color: darkseagreen;
     border-color: darkseagreen;
-}
+} 
+
+.main-container {
+    -webkit-box-shadow: inset 5px 5px 18px 0px #000000; 
+    box-shadow: inset 5px 5px 18px 0px #000000;
+    width: 70%;
+    margin: 0 auto;  
+    }
