@@ -5,7 +5,7 @@
 
 ## Objective 
 
-Use various Machine Learin gmodels to accurately classify electronic music between 10 subgenres. 
+Use various Machine Learing models to accurately classify electronic music between 10 subgenres. 
 
 ## Technologies 
 - Python 3
