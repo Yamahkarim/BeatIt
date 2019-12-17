@@ -3,9 +3,35 @@
 
 ![dj](imgs/dj.jpg) 
 
-## Objective 
 
-Use various Machine Learning models to accurately classify electronic music between 10 subgenres. 
+## Objective 
+<i>"How can we help algorithms more accuaretlety account for the complexities within electronic music?"</i> 
+
+
+Create a better recommendation systems for the subgenres of electronic music with Machine Learning. 
+
+## Scope of Work
+
+####<u> Phase I: Understanding the Problem</u> 
+<i><b>What is the problem?</b></i>
+
+
+<i><b>Which questions  do we need to answer?</b></i>
+
+A.) How do the current systems of reccomendations work?
+
+B.) What algorithms are best for working understanding the complexities to techno and electronic music. 
+
+- <b>Classification</b>- Use various Machine Learning models to accurately classify electronic music between 10 subgenres. 
+- An expolaroty analysis of music recommendation algorithms as applied to electronic music sub-genres through the lens of academia and theoritical analysis. 
+
+#### Phase II
+- Focus on the application of music recommendation applications 
+
+#### Phase III
+- Design of a new application with a new algorithm cosisting of the products of phase I and II.  
+
+
 
 ## Technologies 
 - Python 3
