@@ -1,14 +1,18 @@
-# Beat it!: 
-#### Electronic Music Subgenre Classification with Machine Learning Techniques 
+# Beat it! 
+#### Electronic Music Sub-genre Classification with Machine Learning Techniques 
 
 ![dj](imgs/dj.jpg) 
 
+## Preface 
+
+This project initially started during my time at the UCI Data Science Bootcamp as a way to understand the differences between ML algorithms through a lens in which I was familiar with- Electronic Music. As a fan of the music that lays in the avant-garde realms of techno the popular music recommendation applications such as Spotify, Pandora and SoundCloud often lack in their accuracy of recommending similar music specific to the song rather then a generalization of the artist as a whole. 
+
 
 ## Objective 
-<i>"How can we help algorithms more accuaretlety account for the complexities within electronic music?"</i> 
+<i>"How can we help algorithms more accurately account for the complexities within electronic music?"</i> 
 
 
-Create a better recommendation systems for the subgenres of electronic music with Machine Learning. 
+Create a better recommendation systems for the sub-genres of electronic music with Machine Learning. 
 
 ## Scope of Work
 
@@ -16,22 +20,22 @@ Create a better recommendation systems for the subgenres of electronic music wit
 <i><b>What is the problem?</b></i>
 
 
-<i><b>Which questions  do we need to answer?</b></i>
+<i><b>Which questions do we need to answer?</b></i>
 
-A.) How do the current systems of reccomendations work?
+A.) How do the current systems of recommendations work?
 
 B.) What algorithms are best for working understanding the complexities to techno and electronic music. 
 
-- <b>Classification</b>- Use various Machine Learning models to accurately classify electronic music between 10 subgenres. 
-- An expolaroty analysis of music recommendation algorithms as applied to electronic music sub-genres through the lens of academia and theoritical analysis. 
+#### Phase II: Classification
 
-#### Phase II
-- Focus on the application of music recommendation applications 
+- The application of most typical recommendation systems is based on the way the machine understands the (musical) composition. This is primarily done through a machine learning process known as classification, in which features are selected from the composition and then compared to other components and features to classify the composition.
 
-#### Phase III
-- Design of a new application with a new algorithm cosisting of the products of phase I and II.  
+-  There is a multitude of ways in which classification can be performed and this project seeks to explore the processes in order to discover the most accurate algorithm.
 
 
+#### Phase III: Application
+
+- Design an application of music recommendation methods we discover. 
 
 ## Technologies 
 - Python 3
@@ -44,7 +48,7 @@ B.) What algorithms are best for working understanding the complexities to techn
 
 ## Explore 
 
-1.) Create and initialize a new [virtual enviornment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/) 
+1.) Create and initialize a new [virtual environment](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/) 
 
 2.) Download the required dependencies and technologies listed above. 
 
