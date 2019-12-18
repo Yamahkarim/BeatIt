@@ -5,7 +5,7 @@
 
 ## Preface 
 
-This project initially started during my time at the UCI Data Science Bootcamp as a way to understand the differences between ML algorithms through a lens in which I was familiar with- Electronic Music. As a fan of the music that lays in the avant-garde realms of techno the popular music recommendation applications such as Spotify, Pandora and SoundCloud often lack in their accuracy of recommending similar music specific to the song rather then a generalization of the artist as a whole. 
+This project initially started during my time at the UCI Data Science Bootcamp as a way to understand the differences between ML algorithms through a lens in which I was familiar with- Electronic Music. As a fan of the music that lays in the avant-garde realms of techno the popular music recommendation applications such as Spotify, Pandora and SoundCloud often lack in their accuracy of recommending similar music. 
 
 
 ## Objective 
@@ -34,6 +34,9 @@ B.) What algorithms are best for working understanding the complexities to techn
 
 
 #### Phase III: Application
+
+- research recommendation system applications and data engineering methods 
+ * case studies: spotify, soundcloud, pandora 
 
 - Design an application of music recommendation methods we discover. 
 
