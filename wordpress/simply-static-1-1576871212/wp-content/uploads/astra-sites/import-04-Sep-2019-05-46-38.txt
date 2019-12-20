@@ -1,0 +1,100 @@
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: Linux
+Software 		: Apache
+MySQL version 		: 5.6.41
+XML Reader 		: Yes
+PHP Version 		: 7.1.14
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 260M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 30
+Max Upload Size 	: 256 MB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 0
+
+-----
+
+Importing Started! - 05:50:05 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+Inserted WP Form 9
+Imported Customizer Settings {"astra-settings":{"astra-addon-auto-version":"1.8.7","theme-auto-version":"1.8.7","site-content-width":1140,"different-retina-logo":true,"ast-header-retina-logo":"https:\/\/websitedemos.net\/alex21\/wp-content\/uploads\/sites\/275\/2018\/09\/logo-@2x-free-img.png","display-site-tagline":false,"logo-title-inline":false,"header-main-rt-section":"button","header-main-rt-section-html":"<button>HIRE ME<\/button>","header-main-sep":0,"header-main-layout-width":"full","mobile-header-toggle-target":"icon","hide-custom-menu-mobile":false,"mobile-header-toggle-btn-style":"outline","mobile-header-toggle-btn-style-color":"#000000","mobile-header-toggle-btn-border-radius":0,"header-main-menu-align":"inline","ast-header-responsive-logo-width":{"desktop":"","tablet":"","mobile":"65"},"footer-sml-layout":"footer-sml-layout-2","footer-sml-section-1-credit":"Copyright \u00a9 [current_year] [site_title]","footer-sml-section-2":"menu","footer-sml-divider":0,"footer-layout-width":"full","theme-color":"#839595","link-color":"#000000","text-color":"#839595","link-h-color":"#000000","footer-color":"#ffffff","footer-link-color":"#ffffff","footer-link-h-color":"#ffffff","footer-bg-obj":{"background-color":"#839595","background-image":"","background-repeat":"repeat","background-position":"center center","background-size":"auto","background-attachment":"scroll"},"body-font-family":"'Fjalla One', sans-serif","body-font-weight":"400","font-size-body":{"desktop":"16","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"headings-font-family":"'Fjalla One', sans-serif","headings-font-weight":"400","font-size-site-title":{"desktop":"27","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-site-tagline":{"desktop":"14","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"button-color":"#ffffff","button-h-color":"#ffffff","button-bg-color":"#839595","button-bg-h-color":"#000000","button-radius":0,"button-v-padding":8,"button-h-padding":24,"font-size-h1":{"desktop":"65","tablet":"52","mobile":"40","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h2":{"desktop":"60","tablet":"50","mobile":"35","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h3":{"desktop":"45","tablet":"","mobile":"30","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h4":{"desktop":"30","tablet":"","mobile":"25","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h5":{"desktop":"22","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"font-size-h6":{"desktop":"15","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"above-header-submenu-border":{"top":"1","bottom":"1","left":"1","right":"1"},"above-header-submenu-item-border":1,"below-header-submenu-border":{"top":"1","bottom":"1","left":"1","right":"1"},"below-header-submenu-item-border":1,"above-nav-menu-pointer-effect":"none","below-nav-menu-pointer-effect":"none","above-header-submenu-border-color":"#eaeaea","below-header-submenu-container-animation":"","above-header-submenu-container-animation":"","primary-submenu-border":{"top":"0","right":"0","bottom":"0","left":"0"},"primary-submenu-item-border":1,"nav-menu-pointer-effect":"none","submenu-below-header":false,"primary-submenu-b-color":"#eaeaea","header-main-submenu-container-animation":"","primary-submenu-item-b-color":"#eaeaea","above-header-submenu-item-b-color":"#eaeaea","body-font-variant":"400","headings-font-variant":"400","transparent-header-enable":0,"font-size-page-title":{"desktop":"30","tablet":"","mobile":"","desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"wc-header-cart-header-colors":false,"shop-quick-view-stick-cart":true,"header-main-rt-section-button-text":"HIRE ME","header-main-rt-section-button-link":"#","display-site-title":false,"site-content-layout":"boxed-container"},"custom-css":""}
+Importing from XML https://websitedemos.net/wp-content/uploads/astra-sites/275/wxr.xml
+Inserted - Term 2 - {"term_id":2,"name":"page","slug":"page","term_group":0,"term_taxonomy_id":2,"taxonomy":"elementor_library_type","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Term 3 - {"term_id":3,"name":"Menu","slug":"menu","term_group":0,"term_taxonomy_id":3,"taxonomy":"nav_menu","description":"","parent":0,"count":0,"filter":"raw"}
+Inserted - Post 27 - attachment - favicon-free-img
+Inserted - Post 28 - attachment - logo-@2x-free-img
+Inserted - Post 29 - attachment - logo-regular-free-img
+Inserted - Post 31 - attachment - cropped-favicon-free-img.png
+Inserted - Post 46 - attachment - hero-01-free-img
+Inserted - Post 47 - attachment - hero-02-free-img
+Inserted - Post 48 - attachment - hero-03-free-img
+Inserted - Post 49 - attachment - gallery-01-free-img
+Inserted - Post 50 - attachment - gallery-02-free-img
+Inserted - Post 51 - attachment - gallery-03-free-img
+Inserted - Post 52 - attachment - gallery-04-free-img
+Inserted - Post 55 - attachment - kyle-mills-01-free-img
+Inserted - Post 66 - attachment - bathroom-01-free-img
+Inserted - Post 67 - attachment - bathroom-02-free-img
+Inserted - Post 68 - attachment - bathroom-03-free-img
+Inserted - Post 69 - attachment - bathroom-04-free-img
+Inserted - Post 70 - attachment - bathroom-05-free-img
+Inserted - Post 71 - attachment - bedroom-01-free-img
+Inserted - Post 72 - attachment - bedroom-02-free-img
+Inserted - Post 73 - attachment - bedroom-03-free-img
+Inserted - Post 74 - attachment - bedroom-04-free-img
+Inserted - Post 75 - attachment - bedroom-05-free-img
+Inserted - Post 76 - attachment - kitchen-01-free-img
+Inserted - Post 77 - attachment - kitchen-02-free-img
+Inserted - Post 78 - attachment - kitchen-03-free-img
+Inserted - Post 79 - attachment - kitchen-04-free-img
+Inserted - Post 80 - attachment - kitchen-05-free-img
+Inserted - Post 81 - attachment - livingroom-01-free-img
+Inserted - Post 82 - attachment - livingroom-02-free-img
+Inserted - Post 83 - attachment - livingroom-03-free-img
+Inserted - Post 84 - attachment - livingroom-04-free-img
+Inserted - Post 85 - attachment - livingroom-05-free-img
+Inserted - Post 86 - attachment - office-01-free-img
+Inserted - Post 87 - attachment - office-02-free-img
+Inserted - Post 88 - attachment - office-03-free-img
+Inserted - Post 89 - attachment - office-04-free-img
+Inserted - Post 90 - attachment - office-05-free-img
+Inserted - Post 92 - attachment - about-02-free-img
+Inserted - Post 93 - attachment - about-01-free-img
+Inserted - Post 102 - attachment - kyle-mills-02-free-img
+Inserted - Post 103 - page - HOME
+Inserted - Post 104 - page - ABOUT
+Inserted - Post 105 - page - PROJECTS
+Inserted - Post 13 - page - TESTIMONIALS
+Inserted - Post 15 - page - CONTACT
+Inserted - Post 17 - page - SERVICES
+Inserted - Post 20 - nav_menu_item - 
+Inserted - Post 21 - nav_menu_item - 
+Inserted - Post 22 - nav_menu_item - 
+Inserted - Post 23 - nav_menu_item - 
+Inserted - Post 24 - nav_menu_item - 
+Inserted - Post 25 - nav_menu_item - 
+Inserted - Post 109 - attachment - demo-screenshot-free-img
+Imported - Site Options {"woocommerce_product_attributes":[],"woocommerce_product_cat_list":[],"woocommerce_product_cat":[],"custom_logo":"https:\/\/websitedemos.net\/interior-designer-02\/wp-content\/uploads\/sites\/275\/2018\/09\/logo-regular-free-img.png","nav_menu_locations":{"primary":"menu","footer_menu":"menu"},"show_on_front":"page","page_on_front":"HOME","page_for_posts":"","_fl_builder_enabled_icons":null,"_fl_builder_enabled_modules":null,"_fl_builder_post_types":null,"_fl_builder_color_presets":null,"_fl_builder_services":null,"_fl_builder_settings":null,"_fl_builder_user_access":null,"_fl_builder_enabled_templates":null,"siteorigin_widgets_active":null,"elementor_container_width":"","elementor_cpt_support":["post","page"],"elementor_css_print_method":"external","elementor_default_generic_fonts":"Sans-serif","elementor_disable_color_schemes":"yes","elementor_disable_typography_schemes":"yes","elementor_editor_break_lines":"","elementor_exclude_user_roles":null,"elementor_global_image_lightbox":"yes","elementor_page_title_selector":"","elementor_scheme_color":{"1":"#6ec1e4","2":"#54595f","3":"#7a7a7a","4":"#61ce70"},"elementor_scheme_color-picker]":{"1":"#839595","2":"#ffffff","3":"#ffffff","4":"#ffffff","5":"#ffffff","6":"#ffffff","7":"#000","8":"#fff"},"elementor_scheme_typography":{"1":{"font_family":"Roboto","font_weight":"600"},"2":{"font_family":"Roboto Slab","font_weight":"400"},"3":{"font_family":"Roboto","font_weight":"400"},"4":{"font_family":"Roboto","font_weight":"500"}},"elementor_space_between_widgets":"10","elementor_stretched_section_container":"","woocommerce_shop_page_title":"","woocommerce_cart_page_title":"","woocommerce_checkout_page_title":"","woocommerce_myaccount_page_title":"","woocommerce_edit_address_page_title":"","woocommerce_view_order_page_title":"","woocommerce_change_password_page_title":"","woocommerce_logout_page_title":"","woocommerce_enable_guest_checkout":null,"woocommerce_enable_checkout_login_reminder":null,"woocommerce_enable_signup_and_login_from_checkout":null,"woocommerce_enable_myaccount_registration":null,"woocommerce_registration_generate_username":null,"wpforms_settings":{"disable-css":"2","global-assets":false,"gdpr":false},"learndash_settings_theme_ld30":null,"learndash_settings_courses_themes":null}
+Imported - Widgets {"sidebar-1":{"search-2":{"title":""},"recent-posts-2":{"title":"","number":5},"recent-comments-2":{"title":"","number":5},"archives-2":{"title":"","count":0,"dropdown":0},"categories-2":{"title":"","count":0,"hierarchical":0,"dropdown":0},"meta-2":{"title":""}}}
+Complete 
+Batch Process Started!
+Astra Sites - Importing Images for Blog name 'NÃ¤lij Data' (1)
+---- Processing Images from Widgets -----
+---- Processing WordPress Posts / Pages - for "Gutenberg" ----
+---- Processing MISC ----
+Post ID: 21
+Post ID: 22
+Post ID: 20
+Post ID: 23
+Post ID: 24
+Post ID: 25
+Batch Process Complete!
